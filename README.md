@@ -6,8 +6,8 @@ avrdude: usbdev_open(): error claiming interface 0: Permission denied
 avrdude: usbdev_open(): error claiming interface 1: Permission denied
 avrdude: usbdev_open(): error claiming interface 2: Permission denied
 avrdude: usbdev_open(): no usable interface found
-avrdude: usbdev_open(): did not find any USB device "usb" (0x03eb:0x2111)
-avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PID list: 0x2111
+avrdude: usbdev_open(): did not find any USB device "usb" (0x03eb:0x2141)
+avrdude: jtag3_open_common(): Did not find any device matching VID 0x03eb and PID list: 0x2141
  
  
 OSX is claiming the USB Device. The trick is to install a dummy kext to prevent that. The method is outlined here:http://www.proxmark.org/forum/vi...
